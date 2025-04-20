@@ -1,0 +1,16 @@
+python -m venv venv
+add new interpreter - add local interpreter - enviroment - existing
+pip install pytest
+pip freeze смотрим что добавить в requirements.txt
+pip install -r requirements.txt(если нужно что-то доустановить)
+pytest -v
+
+#bullet поиск  по id со значением bullet
+[id="bullet"] // [value="Cat memes"] поиск по значению атрибута
+[class="lead text-muted"] // .lead.text-muted Поиск по class
+#post2 .title Использование потомков
+#post2 > div.title Использование дочерних элементов
+#posts > .item:nth-child(2) > .title Использование порядкового номера дочернего элемента
+.title.second Использование нескольких классов
+XPATH
+//
